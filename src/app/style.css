@@ -1,0 +1,8 @@
+/* styles/global.css */
+
+.shadow-box {
+    --main-color: #1A948E;
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+

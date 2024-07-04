@@ -1,0 +1,25 @@
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.animatedText {
+    position: relative;
+    font-size: 2em;
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    margin: 20px 0;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(-100px);
+}
